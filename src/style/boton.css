@@ -1,0 +1,41 @@
+.boton-contenedor{
+    /* width: 83px; reemplazado por flex: 1 1 */
+    flex: 1 1;
+    height: 70px;
+    display: flex;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #1b1b32;
+    color: pink;
+    border-radius: 25px;
+    margin: 4px;
+    cursor: pointer;
+    border: 2px solid black;
+    user-select: none; /*No me permite seleccionar texto*/
+    justify-content: center;
+    align-items: center;
+}
+.operador{
+    background-color: #00471b;
+}
+.boton-contenedor:hover{
+    transition-delay:100ms;
+    opacity: 0.8;
+}
+.input{
+    height: 70px;
+    color: orange;
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-end; /*con esto logro el texto a la derecha*/
+    align-items: center;
+    font-weight: bold;
+    font-size: 45px;
+    background-color: #0a0a23;
+    padding:11px 30px 11px 11px;
+    border: 1px solid #888; /*cuando son todos iguales, se puede abreviar  con 888888*/
+    box-shadow: -1px 4px 1px 1px rgb(59, 50, 50);
+    user-select: none;
+    margin: 9px;
+
+}
