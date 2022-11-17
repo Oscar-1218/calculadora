@@ -62,6 +62,9 @@ function App() {
             <Boton manejarClick={()=>{setInput('')}} >Borrar</Boton>
 
           </div>
+
+          
+          
         </div>
       </header>
     </div>

@@ -1,6 +1,5 @@
 {
   "name": "calculadora",
-  "homepage": "https://oscar-1218.github.io/calculadora-react/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
